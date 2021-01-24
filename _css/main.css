@@ -23,7 +23,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
- 	font-family: '';
+ 	font-family: 'Pixel I';
 }
 
 /* scrollbar */
@@ -133,4 +133,5 @@ footer{
 
 .footerimg{
 	height: 30px;
+	margin: 0px 2px 0px 2px;
 }
