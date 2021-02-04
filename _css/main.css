@@ -1,10 +1,5 @@
 @charset "UTF-8";
-/*
-@font-face{
-	font-family: '';
-	src: url("");
-}
-*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -13,6 +8,8 @@
 
 html{
 	height: 100%;
+	font-family: 'Liberation Mono';
+	font-size: 100vw;
 }
 
 /*Body*/
@@ -23,7 +20,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
- 	font-family: 'Pixel I';
 }
 
 /* scrollbar */
@@ -36,11 +32,11 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-	background-color: #4e5ab8;
+	background-color: #4566aa;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-	background-color: #707abe;
+	background-color: #7799cc;
 	transition: background-color 1s ease-out;
 }
 
@@ -58,7 +54,7 @@ body{
 /*Header*/
 header{
 	background-color: #1c1d36;
-	margin: -4px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 18px 10px 0px 10px;
 	height: 60px;
 	border-bottom: 4px solid #393939;
@@ -67,11 +63,12 @@ header{
 
 header a{
 	text-decoration: none;
+	overflow: hidden;
 }
 
 header ul{
 	list-style-type: none;
-	margin: 0px 0px 0px 6px;
+	margin: 0px 0px 0px 0px;
 	height: 60px;
 	display: flex;
 	flex-direction: row;
@@ -84,7 +81,6 @@ header li{
 	background-color: #181818;
 	border: 4px solid #393939;
 	cursor: pointer;
-	overflow: hidden;
 	min-width: 120px;
 	text-align: center;
 }
@@ -105,12 +101,12 @@ header li:hover{
 /*Section*/
 section{
 	background-color: #1c1d36;
-	padding: 30px 20% 30px 20%;
+	padding: 30px 20vw 30px 20vw;
 	margin: 20% 0px 20% 0px;
 	border-top: 4px solid #393939;
 	border-bottom: 4px solid #393939;
 	text-align: justify;
-	font-size: 20pt;
+	font-size: 2vw;
 	flex: 2;
 }
 
@@ -123,7 +119,7 @@ section{
 
 /*Footer*/
 footer{
-	background-color: #4e5ab8;
+	background-color: #4566aa;
 	padding: 15px 20% 15px 20%;
 	height: 30px;
 	font-size: 14pt;

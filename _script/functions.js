@@ -81,3 +81,5 @@ for(let aux in blocks){
     console.log(blocks[aux])
 }
 */
+
+console.log(["bla", "bla2"])
