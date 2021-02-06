@@ -44,7 +44,7 @@ body{
 /* background */
 #bg{
 	content: "";
-	background-image: url("../_images/starbg.gif");
+	background-image: url("../images/starbg.gif");
 	background-attachment: fixed;
 	height: 100%;
 	width: 100%;
